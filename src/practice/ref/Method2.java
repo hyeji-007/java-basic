@@ -1,6 +1,6 @@
 package practice.ref;
 
-public class Method1 {
+public class Method2 {
     public static void main(String[] args) {
         Student student1 = new Student();
         initStudent(student1, "학생1", 15, 90);
