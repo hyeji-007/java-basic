@@ -18,8 +18,8 @@ public class OverridingMain {
         //부모 변수가 자식 인스턴스 참조(다형적 참조)
         Parent poly = new Child();
         System.out.println("Parent -> Child");
-        System.out.println("value = " + poly.value);
-        poly.method();
+        System.out.println("value = " + poly.value); //변수는 오버라이딩 x
+        poly.method(); //메서드 오버라이딩!
 
     }
 }
